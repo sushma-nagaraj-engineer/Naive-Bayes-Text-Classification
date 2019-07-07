@@ -1,0 +1,24 @@
+Instructions for running java files:
+There are two files one of them is for Naiive Bsayes and the other is for Logistic Regression.
+In order to run the Logistic regression.java file enter the following in command line argument
+Step1:
+javac LogisticRegression.java
+Step2:
+java LogisticRegression hw2_train hw2_test no 0.75 0.75 15
+IN this case the 
+a) argument 1 corresponds to training data folder
+b) argumnet 2 corresponds to testing data folder
+c) argument 3 is for selection whether to filter stop words or not
+d) argument 4 is for alpha value
+e) argumnet 5 is for lambda value
+f) argumnet 6 is for number of iterations
+
+In order to run the NaiiveBayes.java file enter the following in the command line argument
+Step1:
+javac NaiiveBayes.java
+Step 2:
+java NaiiveBayes hw2_train hw2_test yes
+In this case
+a) argument 1 corresponds to training data folder
+b) argumnet 2 corresponds to testing data folder
+c) argument 3 is for selection whether to filter stop words or not
